@@ -1,31 +1,24 @@
 ---
 
-title: "About David Florian"
+title: "About Manna Lindman"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Manna is currently a Junior studying Engineering Science with a program concentration in AI and Entrepreneurship and a minor in Digital Fabrication.
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
-
+  * BS Engineering Science
+    
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Manna has experience in the following skills:
 
 * Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
-
-## Press 
-
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+* Laser Cutting
+* CAD Design
+* Python Programming
+* MATLAB Programming
 
 ![Manna Lindman](/assets/img/M_Lindman_Headshot.jpg)
