@@ -10,6 +10,18 @@ Manna is currently a Junior studying Engineering Science with a program concentr
 
 * Vanderbilt University
   * BS Engineering Science
+
+## Professional Experience
+
+In addition to studying engineering at school, Manna also has experience in business.
+
+* Teamworthy Ventures
+  * Summer Investment Associate
+* Comma
+  * Marketing Intern
+* Owen Graduate School of Management
+  * Summer Consultant
+  
     
 ## Technical Skills
 
