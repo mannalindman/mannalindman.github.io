@@ -57,10 +57,20 @@ gallery:
 * Mechanical Brackets
 
 # CAD Model
-<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811eb00a10bd4522857?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Arduino Code
 
 [View Arduino Code](/assets/syringe_pump.ino)
+
+# Operating Instructions
+
+1. Install and secure the 10 mL or 20 mL syringe.
+2. Set the desired flow rate in the Arduino code and upload it.
+3. Power on the pump and press the latching button to start.
+4. Green: running | Yellow: paused | Red: empty
+5. The pump automatically stops when the limit switch detects the end of the syringe.
+6. Unplug the system before replacing the syringe or servicing the electronics.
 
 {% include gallery caption="Syringe Pump Gallery" %}
