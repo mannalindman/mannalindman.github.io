@@ -8,7 +8,7 @@ title: "About Manna Lindman"
 
 Manna is currently a Junior studying Engineering Science with a program concentration in AI and Entrepreneurship and a minor in Digital Fabrication.
 
-* Vanderbilt University
+* Vanderbilt University (Class of 2028)
   * BS Engineering Science
 
 ## Professional Experience
