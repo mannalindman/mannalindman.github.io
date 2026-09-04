@@ -61,6 +61,6 @@ gallery:
 
 # Arduino Code
 
-
+[View Arduino Code](/assets/syringe_pump.ino)
 
 {% include gallery caption="Syringe Pump Gallery" %}
