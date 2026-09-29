@@ -1,1 +1,230 @@
+---
+title: "Needle-Nose Pliers"
+excerpt: "A custom 3D-printed tool with a flexible TPU return spring"
+header:
+  image: /assets/img/syringe_pump_3.jpg
+  teaser: /assets/img/syringe_pump_3.jpg
+gallery:
+  - image_path: assets/img/syringe_pump_1.jpg
+  - image_path: assets/img/syringe_pump_2.jpg
+  - image_path: assets/img/syringe_pump_3.jpg
+   
+---
 
+A pair of functional needle-nose pliers 3D-printed in rigid PLA components and a flexible TPU spring connected through hand pressed dovetail joints that can grip something as small as a through-hole resistor without using conventional metal springs, pins, or fasteners.
+
+---
+
+## The Challenge
+
+Traditional pliers use a mechanical pivot and often a separate spring to control their motion. For this project, the goal was to create a functional tool using 3D-printed components while incorporating a flexible element that automatically returns the jaws to their open position.
+
+The design needed to:
+
+- Grip and pick up small through-hole resistors.
+- Return to an open position when the handles are released.
+- Use a flexible material to create the restoring force.
+- Be assembled by hand without tools.
+- Be printable using the available Voron 3D printers.
+
+Rather than relying on a complicated multi-material print, I designed a modular system in which rigid and flexible components could be printed separately and joined together.
+
+The result is a tool that demonstrates how material selection, mechanical design, and additive manufacturing can work together to produce a functional mechanism.
+
+## At a Glance
+
+| Specification | Design |
+|---|---|
+| CAD software | Autodesk Fusion 360 |
+| Rigid material | PLA |
+| Flexible material | TPU, 90A Shore hardness |
+| Number of PLA components | 4 |
+| Spring dimensions | 45 × 45 × 10 mm |
+| Jaw Length | 70 mm |
+| Layer Height | 10 mm |
+| Perimeter count | 2 |
+| Spring infill | Rectilinear |
+| Connection type | Hand-pressed dovetail |
+| Printer | Voron 3D printer |
+| Nozzle diameter | 0.6 mm |
+| Infill setting | 15% |
+| Overall length | Approximately 220 mm |
+| Overall width | Approximately 110 mm |
+| Demonstrated function | Gripping and picking up through-hole resistors |
+
+*Dimensions are approximate. The infill and nozzle values above are the reported project settings; remaining slicer settings are documented separately.*
+
+---
+
+## CAD Model
+
+Explore the design in three dimensions and examine how the rigid handles and flexible spring fit together.
+
+<!-- Replace this placeholder with your hosted interactive CAD viewer. -->
+
+<div class="cad-viewer">
+  <p><strong>Interactive CAD model coming soon</strong></p>
+  <p>The Fusion 360 model will be embedded here so viewers can rotate, zoom, and inspect the assembled pliers.</p>
+</div>
+
+[View the CAD source files](cad/)
+
+## How It Works
+
+The pliers operate through the interaction of rigid components and an elastic spring. Each material has a distinct mechanical purpose: the PLA maintains the geometry of the handles and gripping jaws, while the TPU deforms as the handles are squeezed and provides the restoring force when the applied force is removed.
+
+![Exploded view of the pliers](images/exploded-view.png)
+
+### 1. Rigid PLA Components
+
+The four PLA components form the structural and gripping portions of the pliers. PLA was selected for the rigid parts because it is relatively stiff, easy to fabricate using FDM 3D printing, and suitable for maintaining the shape of the long, narrow jaws.
+
+The approximately 220 mm overall length provides reach, while the narrow jaws allow the tool to access small electronic components.
+
+The rigid components must withstand the force applied by the user without excessive deformation. They also need to maintain alignment so that the two gripping surfaces can contact a small resistor securely.
+
+### 2. Flexible TPU Return Spring
+
+The return spring is a square TPU component measuring approximately 45 × 45 × 10 mm. It uses TPU with a Shore hardness of 90A and a rectilinear infill pattern.
+
+When the handles are squeezed, the spring deforms. Upon release, the elastic deformation produces a restoring force that moves the pliers back toward their open position.
+
+Unlike a conventional metal coil spring, this component uses the flexibility of a printed polymer structure to produce the return motion.
+
+The spring's geometry and material properties work together to determine how far the handles can move, how much force is needed to close the jaws, and how effectively the tool reopens.
+
+A thicker or more constrained spring structure generally resists deformation more strongly, while a more compliant structure can allow greater movement. However, the actual response depends on the geometry, infill, print orientation, and material behavior.
+
+### 3. Hand-Pressed Dovetail Connections
+
+The TPU spring connects to the PLA components through dovetail joints that can be assembled by hand.
+
+The dovetail geometry mechanically retains the flexible component without requiring screws, adhesives, or additional tools. The connection is designed to resist separation while allowing the spring to deform during operation.
+
+This modular approach also allows the PLA components and TPU spring to be printed separately on the available Voron printers.
+
+Separating the materials makes fabrication more practical and allows the spring geometry to be modified or reprinted without redesigning the entire tool.
+
+The connection must balance two competing requirements: it needs enough clearance for hand assembly, but it must also remain secure during repeated opening and closing.
+
+---
+
+## Design Process
+
+The pliers were developed through multiple CAD and printing iterations. Instead of assuming that the initial geometry would work perfectly, I used physical prototypes to evaluate the fit, motion, and functionality of the design.
+
+### Iteration 1 — Establishing the Geometry
+
+The initial design focused on establishing the overall shape of the pliers, the arrangement of the rigid components, and the location of the flexible spring.
+
+The first pliers were way too large on the first iteration. The jaw geometry was developed incorrectly, starting from a closed jaw position that required the user to operate the pliers using two hands.
+
+### Iteration 2 — Spring and Connection Development
+
+![Spring and dovetail prototype](images/iteration-2.jpg)
+
+The next stage focused on opening the jaw and making the handles smaller.
+
+In this iteration, the handles had to overlap in order to fully close the jaws, because the handles were still too bulky. 
+
+### Final Design — A Functional Tool
+
+![Final assembled pliers](images/final-pliers.jpg)
+
+The final design had more narrow, pointed handles and slightly skinnier jaws to ensure that the jaws would fully close without handle overlap.
+
+The completed tool successfully grips and picks up through-hole resistors, meeting the project's central functional objective.
+
+---
+
+### Assembly
+
+The final assembly consists of four rigid PLA components and one flexible TPU spring.
+
+1. Print the rigid PLA components and TPU spring separately.
+2. Inspect the dovetail interfaces for dimensional accuracy and printing defects.
+3. Align the dovetail features and hand-press the spring into the corresponding PLA components.
+4. Check that all connections are fully seated and that the spring is retained.
+5. Squeeze and release the handles to verify that the spring deforms and returns the jaws toward their open position.
+
+No tools are required for assembly.
+
+---
+
+## Testing the Pliers
+
+A successful design needed to do more than look like a pair of pliers. It needed to grip a small component and provide useful, repeatable motion.
+
+### Functional Test: Through-Hole Resistors
+
+![Pliers picking up a through-hole resistor](images/resistor-test.jpg)
+
+The completed pliers were tested by gripping and picking up through-hole resistors.
+
+The test demonstrates the primary purpose of the tool: the jaws can close around a small electronic component, maintain their grip during lifting, and reopen when the handles are released.
+
+**Result: Successful.** The final pliers were able to grip and pick up through-hole resistors.
+
+---
+
+## Final Demonstration
+
+See the completed pliers in action.
+
+![GIF of the pliers opening, closing, and picking up a resistor](images/pliers-demo.gif)
+
+The demonstration shows the handles being squeezed, the jaws gripping a through-hole resistor, and the spring returning the pliers to the open position after release.
+
+The final result is a functional tool fabricated from rigid and flexible polymers, assembled without conventional fasteners, and designed specifically for small-component handling.
+
+---
+
+## Beyond the Pliers: What Else Can 3D Printing Make Move?
+
+One of the most interesting capabilities of additive manufacturing is the ability to create mechanisms that move without requiring conventional assembly. Print-in-place designs use carefully modeled clearances to allow separate components to move relative to one another after fabrication.
+
+Instead of printing each component individually and assembling it with fasteners, the components can be printed in an already-connected configuration. This is particularly useful for hinges, gears, articulated structures, and other mechanisms with complex geometries.
+
+Our pliers take a related but slightly different approach. Rather than printing the entire mechanism as one connected structure, we use separate rigid and flexible components to achieve the desired motion.
+
+### Applications of Print-in-Place Technology
+
+**1. Gears and mechanical transmissions**
+
+[Explore print-in-place mechanisms and gears — All3DP](https://all3dp.com/)
+
+3D-printed gear assemblies can incorporate multiple interacting components in a single build. Examples include planetary gear systems, gear trains, and mechanical demonstrations.
+
+These mechanisms demonstrate how additive manufacturing can simplify assembly and create compact systems with moving components. The same design principles of clearance, alignment, and controlled motion are relevant to the joints and spring interfaces in our pliers.
+
+**2. Articulated objects and mechanical joints**
+
+[Print-in-place hinges and joints — OzFDM](https://ozfdm.com.au/blogs/knowledge-base/print-in-place-designs-hinges-joints-and-mechanisms)
+
+Articulated models, chains, and hinges use connected geometries that remain mechanically separate after printing. They demonstrate how a design can incorporate motion without requiring individual components to be assembled afterward.
+
+The key challenge is designing enough clearance to prevent adjacent surfaces from fusing during printing while maintaining sufficient precision for useful motion.
+
+**3. Compliant mechanisms and robotic grippers**
+
+[Compliant Mechanism Pliers — EduFacturing](https://edufacturing.com/en/projects-library/compliant-mechanism-pliers/)
+
+Compliant mechanisms achieve motion through elastic deformation rather than relying entirely on conventional rotating joints. In the case of pliers, flexible sections can replace mechanical pivots or springs.
+
+This is closely related to our design. Although our TPU spring is a separate component rather than an integrated flexure, both approaches use material deformation to produce motion.
+
+Compliant mechanisms are also relevant to robotic grippers, where flexible structures can help accommodate objects of different shapes and distribute contact forces.
+
+**4. Multi-material hinges and folding structures**
+
+[Self-locking multi-material origami structures — Nature Communications](https://www.nature.com/articles/s41467-023-37343-w)
+
+Researchers have demonstrated the use of rigid PLA structures combined with flexible TPU regions to create folding structures and flexible hinges.
+
+This research illustrates how rigid and flexible materials can be assigned different mechanical roles within a single design. It also highlights the importance of the interface between the materials, particularly when the structure experiences repeated deformation.
+
+Our design applies the same general principle through mechanically interlocking dovetail joints rather than relying on a permanently bonded multi-material print.
+
+---
+
+{% include gallery caption="Pliers Gallery" %}
