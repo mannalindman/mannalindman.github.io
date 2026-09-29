@@ -110,7 +110,7 @@ The pliers were developed through multiple CAD and printing iterations. Instead 
 
 ### Iteration 1 — Establishing the Geometry
 
-image_path: assets/img/iteration1.jpg
+![Ieration 1](/assets/img/iteration1.jpg)
 
 The initial design focused on establishing the overall shape of the pliers, the arrangement of the rigid components, and the location of the flexible spring.
 
@@ -118,7 +118,7 @@ The first pliers were way too large on the first iteration. The jaw geometry was
 
 ### Iteration 2 — Spring and Connection Development
 
-image_path: assets/img/iteration2.jpg
+![Iteration 2](/assets/img/iteration2.jpg)
 
 The next stage focused on opening the jaw and making the handles smaller.
 
