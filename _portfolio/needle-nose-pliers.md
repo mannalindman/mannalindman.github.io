@@ -7,6 +7,7 @@ header:
 gallery:
   - image_path: assets/img/iteration1.jpg
   - image_path: assets/img/iteration2.jpg
+  - image_path: assets/img/spring.jpg
    
 ---
 
@@ -52,7 +53,7 @@ The result is a tool that demonstrates how material selection, mechanical design
 | Overall width | Approximately 110 mm |
 | Demonstrated function | Gripping and picking up through-hole resistors |
 
-*Dimensions are approximate. The infill and nozzle values above are the reported project settings; remaining slicer settings are documented separately.*
+*Dimensions are approximate.*
 
 ---
 
