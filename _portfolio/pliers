@@ -15,7 +15,7 @@ A pair of functional needle-nose pliers 3D-printed in rigid PLA components and a
 
 ---
 
-## The Challenge
+# The Challenge
 
 Traditional pliers use a mechanical pivot and often a separate spring to control their motion. For this project, the goal was to create a functional tool using 3D-printed components while incorporating a flexible element that automatically returns the jaws to their open position.
 
@@ -31,7 +31,7 @@ Rather than relying on a complicated multi-material print, I designed a modular 
 
 The result is a tool that demonstrates how material selection, mechanical design, and additive manufacturing can work together to produce a functional mechanism.
 
-## At a Glance
+# At a Glance
 
 | Specification | Design |
 |---|---|
@@ -56,7 +56,7 @@ The result is a tool that demonstrates how material selection, mechanical design
 
 ---
 
-## CAD Model
+# CAD Model
 
 Explore the design in three dimensions and examine how the rigid handles and flexible spring fit together.
 
@@ -64,7 +64,7 @@ Explore the design in three dimensions and examine how the rigid handles and fle
 
 [View the CAD source files](cad/)
 
-## How It Works
+# How It Works
 
 The pliers operate through the interaction of rigid components and an elastic spring. Each material has a distinct mechanical purpose: the PLA maintains the geometry of the handles and gripping jaws, while the TPU deforms as the handles are squeezed and provides the restoring force when the applied force is removed.
 
