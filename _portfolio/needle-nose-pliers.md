@@ -127,7 +127,7 @@ In this iteration, the handles had to overlap in order to fully close the jaws, 
 
 ### Final Design — A Functional Tool
 
-![Final assembled pliers](images/final-pliers.jpg)
+![Final assembled pliers](images/final-plier-image.jpg)
 
 The final design had more narrow, pointed handles and slightly skinnier jaws to ensure that the jaws would fully close without handle overlap.
 
@@ -155,8 +155,6 @@ A successful design needed to do more than look like a pair of pliers. It needed
 
 ### Functional Test: Through-Hole Resistors
 
-![Pliers picking up a through-hole resistor](images/resistor-test.jpg)
-
 The completed pliers were tested by gripping and picking up through-hole resistors.
 
 The test demonstrates the primary purpose of the tool: the jaws can close around a small electronic component, maintain their grip during lifting, and reopen when the handles are released.
@@ -169,7 +167,7 @@ The test demonstrates the primary purpose of the tool: the jaws can close around
 
 See the completed pliers in action.
 
-![GIF of the pliers opening, closing, and picking up a resistor](images/pliers-demo.gif)
+![GIF of the pliers opening, closing, and picking up a resistor](images/plier-demo.gif)
 
 The demonstration shows the handles being squeezed, the jaws gripping a through-hole resistor, and the spring returning the pliers to the open position after release.
 
