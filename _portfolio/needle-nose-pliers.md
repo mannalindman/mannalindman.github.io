@@ -5,9 +5,8 @@ header:
   image: /assets/img/syringe_pump_3.jpg
   teaser: /assets/img/syringe_pump_3.jpg
 gallery:
-  - image_path: assets/img/syringe_pump_1.jpg
-  - image_path: assets/img/syringe_pump_2.jpg
-  - image_path: assets/img/syringe_pump_3.jpg
+  - image_path: assets/img/iteration1.jpg
+  - image_path: assets/img/iteration2.jpg
    
 ---
 
@@ -69,8 +68,6 @@ Explore the design in three dimensions and examine how the rigid handles and fle
 
 The pliers operate through the interaction of rigid components and an elastic spring. Each material has a distinct mechanical purpose: the PLA maintains the geometry of the handles and gripping jaws, while the TPU deforms as the handles are squeezed and provides the restoring force when the applied force is removed.
 
-![Exploded view of the pliers](images/exploded-view.png)
-
 ### 1. Rigid PLA Components
 
 The four PLA components form the structural and gripping portions of the pliers. PLA was selected for the rigid parts because it is relatively stiff, easy to fabricate using FDM 3D printing, and suitable for maintaining the shape of the long, narrow jaws.
@@ -111,13 +108,15 @@ The pliers were developed through multiple CAD and printing iterations. Instead 
 
 ### Iteration 1 — Establishing the Geometry
 
+![Iteration 1 Image](assets/img/iteration1.jpg)
+
 The initial design focused on establishing the overall shape of the pliers, the arrangement of the rigid components, and the location of the flexible spring.
 
 The first pliers were way too large on the first iteration. The jaw geometry was developed incorrectly, starting from a closed jaw position that required the user to operate the pliers using two hands.
 
 ### Iteration 2 — Spring and Connection Development
 
-![Spring and dovetail prototype](images/iteration-2.jpg)
+![Iteration 2 Image](assets/img/iteration2.jpg)
 
 The next stage focused on opening the jaw and making the handles smaller.
 
