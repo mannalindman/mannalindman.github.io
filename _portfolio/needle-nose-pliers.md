@@ -49,7 +49,7 @@ The result is a tool that demonstrates how material selection, mechanical design
 | Printer | Voron 3D printer |
 | Nozzle diameter | 0.6 mm |
 | Infill setting | 15% |
-| Overall length | Approximately 220 mm |
+| Overall length | Approximately 240 mm |
 | Overall width | Approximately 110 mm |
 | Demonstrated function | Gripping and picking up through-hole resistors |
 
