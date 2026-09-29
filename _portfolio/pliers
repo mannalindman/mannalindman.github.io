@@ -41,6 +41,7 @@ The result is a tool that demonstrates how material selection, mechanical design
 | Number of PLA components | 4 |
 | Spring dimensions | 45 × 45 × 10 mm |
 | Jaw Length | 70 mm |
+| Jaw Capacity | 24 mm |
 | Layer Height | 10 mm |
 | Perimeter count | 2 |
 | Spring infill | Rectilinear |
