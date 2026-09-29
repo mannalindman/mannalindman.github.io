@@ -78,7 +78,7 @@ The rigid components must withstand the force applied by the user without excess
 
 ### 2. Flexible TPU Return Spring
 
-image_path: assets/img/spring.jpg
+![First Spring Prototype](/assets/img/spring.jpg)
 
 The return spring is a square TPU component measuring approximately 45 × 45 × 10 mm. It uses TPU with a Shore hardness of 90A and a rectilinear infill pattern.
 
