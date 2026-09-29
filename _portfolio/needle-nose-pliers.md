@@ -1,5 +1,5 @@
 ---
-title: "Needle-Nose Pliers"
+title: "Print-in-Place Pliers"
 excerpt: "A custom 3D-printed tool with a flexible TPU return spring"
 header:
   image: /assets/img/syringe_pump_3.jpg
