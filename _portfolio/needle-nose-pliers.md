@@ -2,8 +2,8 @@
 title: "Print-in-Place Pliers"
 excerpt: "A custom 3D-printed tool with a flexible TPU return spring"
 header:
-  image: /assets/img/syringe_pump_3.jpg
-  teaser: /assets/img/syringe_pump_3.jpg
+  image: /assets/img/final-plier-image.jpg
+  teaser: /assets/img/final-plier-image.jpg
 gallery:
   - image_path: assets/img/iteration1.jpg
   - image_path: assets/img/iteration2.jpg
@@ -127,7 +127,7 @@ In this iteration, the handles had to overlap in order to fully close the jaws, 
 
 ### Final Design — A Functional Tool
 
-![Final assembled pliers](images/final-plier-image.jpg)
+![Final assembled pliers](/assets/img/final-plier-image.jpg)
 
 The final design had more narrow, pointed handles and slightly skinnier jaws to ensure that the jaws would fully close without handle overlap.
 
@@ -167,7 +167,7 @@ The test demonstrates the primary purpose of the tool: the jaws can close around
 
 See the completed pliers in action.
 
-![GIF of the pliers opening, closing, and picking up a resistor](images/plier-demo.gif)
+![GIF of the pliers opening, closing, and picking up a resistor](/assets/img/plier-demo.gif)
 
 The demonstration shows the handles being squeezed, the jaws gripping a through-hole resistor, and the spring returning the pliers to the open position after release.
 
