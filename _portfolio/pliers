@@ -60,12 +60,7 @@ The result is a tool that demonstrates how material selection, mechanical design
 
 Explore the design in three dimensions and examine how the rigid handles and flexible spring fit together.
 
-<!-- Replace this placeholder with your hosted interactive CAD viewer. -->
-
-<div class="cad-viewer">
-  <p><strong>Interactive CAD model coming soon</strong></p>
-  <p>The Fusion 360 model will be embedded here so viewers can rotate, zoom, and inspect the assembled pliers.</p>
-</div>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112473af0a02b03be9?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 [View the CAD source files](cad/)
 
